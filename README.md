@@ -17,6 +17,9 @@ Then tell your AI one sentence: "Make me an addon that ...".
   client), reads your Lua errors after a /reload, publishes with screenshots.
 - The Forever API it checks against: [wowaddons.gg/forever-api](https://wowaddons.gg/forever-api),
   6,623 functions and 1,816 events, each as markdown for your AI.
+- The same API as an MCP server, no account:
+  `claude mcp add --transport http wowaddons https://wowaddons.gg/mcp` (tools `forever_api`,
+  `forever_api_search`, `addon_guide`).
 - Publish without the skill: [wowaddons.gg/publish](https://wowaddons.gg/publish).
 
 Free, for creators and players. The copy served at wowaddons.gg/skills/wow-addon is the reference.

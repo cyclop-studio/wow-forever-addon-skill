@@ -28,7 +28,10 @@ argument and return as Blizzard documents Forever, and
 https://wowaddons.gg/forever-api?q=NAME says whether a name is in the game,
 deprecated (with what to write instead) or absent. Blizzard's source is
 https://github.com/Gethe/wow-ui-source/tree/forever. Prefer the `C_`
-namespaces. Some values can be secret (positions in instances, some fights):
+namespaces. If your client takes MCP servers, the same lookup is one tool call:
+`https://wowaddons.gg/mcp` (Streamable HTTP, no account), tools `forever_api`,
+`forever_api_search` and `addon_guide`. Claude Code:
+`claude mcp add --transport http wowaddons https://wowaddons.gg/mcp`. Some values can be secret (positions in instances, some fights):
 guard them before any arithmetic.
 
 ```lua
