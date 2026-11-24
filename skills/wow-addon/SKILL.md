@@ -109,7 +109,7 @@ Core.lua
 - Everything `local`; the files share the table `local name, ns = ...` gives each. Only the saved variables, the `SLASH_` names and a TOC's `AddonCompartmentFunc` are global.
 - `Author` is the player's own creator name, or leave it out.
 - No em dash and no en dash in any text the player reads: a comma, a colon or parentheses.
-- A `README.md` in the folder becomes the addon's page.
+- Write a `README.md` in the folder: it becomes the addon's page, the one search engines read. Open with one sentence that says what the addon does in the words a player would search, then `## What it does`, `## How to use the addon` (its commands and clicks) and `## Questions`; a guide gives its steps with their zones and coordinates. Facts read from the addon and the game, never invented. `**bold**`, `` `code` `` and `[words](https://...)` are drawn. Then the same page in the game's other languages, `README.frFR.md`, `README.deDE.md` and so on by the game's locale codes, and its `## Notes` as `## Notes-frFR:` in the TOC: the page in that language shows them. A name of the game is written as the game writes it there (the client's tables, Wowhead with its locale), never guessed; the game has no Italian, so Italian keeps the English names.
 
 ## 5. Checks, every change
 
